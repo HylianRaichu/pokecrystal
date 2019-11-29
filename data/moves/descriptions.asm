@@ -252,12 +252,11 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw FairyWindDescription
-	dw MoveFDDescription
+	dw MoonblastDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1270,3 +1269,7 @@ BeatUpDescription:
 FairyWindDescription
 	db   "Stirs up wind"
 	next "Strikes foe.@"
+
+MoonblastDescription
+	db   "Attack that may"
+	next "lower SPCL.ATK.@"
