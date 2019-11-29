@@ -281,7 +281,6 @@ BattleAnimations::
 	dw BattleAnim_HitConfusion
 
 BattleAnim_0:
-BattleAnim_252:
 BattleAnim_253:
 BattleAnim_254:
 BattleAnim_MirrorMove:
@@ -1341,6 +1340,7 @@ BattleAnim_Sonicboom_JP:
 
 BattleAnim_Gust:
 BattleAnim_Sonicboom:
+BattleAnim_FairyWind:
 	anim_2gfx ANIM_GFX_WIND, ANIM_GFX_HIT
 .loop
 	anim_sound 0, 1, SFX_RAZOR_WIND
@@ -4597,7 +4597,7 @@ BattleAnim_BeatUp:
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
-
+	
 BattleAnim_DreamEater_branch_cbab3:
 BattleAnim_GigaDrain_branch_cbab3:
 BattleAnim_LeechLife_branch_cbab3:
