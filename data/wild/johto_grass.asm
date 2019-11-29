@@ -293,7 +293,7 @@ JohtoGrassWildMons:
 	; nite
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
+	db 15, MURKROW
 	db 14, ZUBAT
 	db 15, RATTATA
 	db 15, RATICATE
@@ -318,7 +318,7 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 16, WEEZING
 	; nite
-	db 14, RATTATA
+	db 14, MISDREAVUS
 	db 14, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
@@ -604,7 +604,7 @@ JohtoGrassWildMons:
 	db 15, MACHOP
 	db 14, RATICATE
 	db 15, ZUBAT
-	db 15, GOLBAT
+	db 15, SLUGMA
 	db 15, GOLBAT
 	; day
 	db 13, GEODUDE
@@ -612,7 +612,7 @@ JohtoGrassWildMons:
 	db 15, MACHOP
 	db 14, RATICATE
 	db 15, ZUBAT
-	db 15, GOLBAT
+	db 15, SLUGMA
 	db 15, GOLBAT
 	; nite
 	db 13, GEODUDE
@@ -1178,8 +1178,8 @@ JohtoGrassWildMons:
 	db 23, ZUBAT
 	db 25, GRAVELER
 	db 25, URSARING
-	db 30, URSARING
-	db 23, GOLBAT
+	db 30, LARVITAR
+	db 23, LARVITAR
 	db 23, GOLBAT
 	; nite
 	db 23, GEODUDE
@@ -1483,8 +1483,8 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 18, HOUNDOUR
+	db 18, HOUNDOUR
 	db 18, MEOWTH
 
 	map_id ROUTE_42
