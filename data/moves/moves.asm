@@ -264,3 +264,4 @@ Moves:
 	move WHIRLPOOL,    EFFECT_TRAP_TARGET,        15, WATER,     70, 15,   0
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,     100, 10,   0
 	move FAIRY_WIND    EFFECT_NORMAL_HIT	      40, FAIRY,    100, 40,   0
+	move MOONBLAST     EFFECT_NORMAL_HIT          95, FAIRY,    100, 15,  30
