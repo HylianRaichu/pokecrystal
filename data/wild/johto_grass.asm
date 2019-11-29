@@ -550,7 +550,7 @@ JohtoGrassWildMons:
 	db 7, METAPOD
 	db 7, KAKUNA
 	db 7, PIDGEY
-	db 6, PARAS
+	db 6, BULBASAUR
 	db 6, PARAS
 	; day
 	db 5, CATERPIE
@@ -558,7 +558,7 @@ JohtoGrassWildMons:
 	db 7, METAPOD
 	db 7, KAKUNA
 	db 7, PIDGEY
-	db 6, PARAS
+	db 6, BULBASAUR
 	db 6, PARAS
 	; nite
 	db 5, ODDISH
@@ -566,7 +566,7 @@ JohtoGrassWildMons:
 	db 7, ODDISH
 	db 7, PSYDUCK
 	db 7, HOOTHOOT
-	db 6, PARAS
+	db 6, BULBASAUR
 	db 6, PARAS
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
@@ -1167,11 +1167,11 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, GEODUDE
-	db 23, ZUBAT
+	db 23, LARVITAR
 	db 25, GRAVELER
 	db 25, URSARING
 	db 20, TEDDIURSA
-	db 23, GOLBAT
+	db 23, CHARMANDER
 	db 23, GOLBAT
 	; day
 	db 23, GEODUDE
@@ -1179,7 +1179,7 @@ JohtoGrassWildMons:
 	db 25, GRAVELER
 	db 25, URSARING
 	db 30, LARVITAR
-	db 23, LARVITAR
+	db 23, CHARMANDER
 	db 23, GOLBAT
 	; nite
 	db 23, GEODUDE
@@ -1187,7 +1187,7 @@ JohtoGrassWildMons:
 	db 25, GRAVELER
 	db 20, WOBBUFFET
 	db 25, WOBBUFFET
-	db 23, GOLBAT
+	db 23, CHARMANDER
 	db 23, GOLBAT
 
 	map_id ROUTE_29
