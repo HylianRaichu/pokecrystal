@@ -475,6 +475,7 @@ ClefairyEvosAttacks:
 	db 13, DOUBLESLAP
 	db 19, MINIMIZE
 	db 26, DEFENSE_CURL
+	db 28, MOONBLAST
 	db 34, METRONOME
 	db 43, MOONLIGHT
 	db 53, LIGHT_SCREEN
@@ -516,6 +517,7 @@ JigglypuffEvosAttacks:
 	db 1, SING
 	db 4, DEFENSE_CURL
 	db 9, POUND
+	db 11, FAIRY_WIND
 	db 14, DISABLE
 	db 19, ROLLOUT
 	db 24, DOUBLESLAP
@@ -567,6 +569,7 @@ OddishEvosAttacks:
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
 	db 23, ACID
+	db 30, MOONBLAST
 	db 32, MOONLIGHT
 	db 39, PETAL_DANCE
 	db 0 ; no more level-up moves
@@ -585,6 +588,7 @@ GloomEvosAttacks:
 	db 24, ACID
 	db 35, MOONLIGHT
 	db 44, PETAL_DANCE
+	db 45, MOONBLAST
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
@@ -1665,6 +1669,7 @@ MrMimeEvosAttacks:
 	db 31, ENCORE
 	db 36, PSYBEAM
 	db 41, BATON_PASS
+	db 44, MOONBLAST
 	db 46, SAFEGUARD
 	db 0 ; no more level-up moves
 
@@ -2226,6 +2231,7 @@ HoothootEvosAttacks:
 	db 22, REFLECT
 	db 28, TAKE_DOWN
 	db 34, CONFUSION
+	db 40, MOONBLAST
 	db 48, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -2241,6 +2247,7 @@ NoctowlEvosAttacks:
 	db 25, REFLECT
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
+	db 47, MOONBLAST
 	db 57, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -2367,7 +2374,7 @@ CleffaEvosAttacks:
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
+	db EVOLVE_HAPPINESS, TR_ANYTIME, ff
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, CHARM
@@ -2482,6 +2489,7 @@ MarillEvosAttacks:
 	db 10, WATER_GUN
 	db 15, ROLLOUT
 	db 21, BUBBLEBEAM
+	db 23, MOONBLAST
 	db 28, DOUBLE_EDGE
 	db 36, RAIN_DANCE
 	db 0 ; no more level-up moves
@@ -2495,8 +2503,9 @@ AzumarillEvosAttacks:
 	db 3, DEFENSE_CURL
 	db 6, TAIL_WHIP
 	db 10, WATER_GUN
+	db 13, BUBBLEBEAM
 	db 15, ROLLOUT
-	db 25, BUBBLEBEAM
+	db 25, MOONBLAST
 	db 36, DOUBLE_EDGE
 	db 48, RAIN_DANCE
 	db 0 ; no more level-up moves
@@ -2809,6 +2818,7 @@ SnubbullEvosAttacks:
 	db 19, LICK
 	db 26, ROAR
 	db 34, RAGE
+	db 37, MOONBLAST
 	db 43, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -2822,6 +2832,7 @@ GranbullEvosAttacks:
 	db 19, LICK
 	db 28, ROAR
 	db 38, RAGE
+	db 43, MOONBLAST
 	db 51, TAKE_DOWN
 	db 0 ; no more level-up moves
 
