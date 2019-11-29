@@ -4,8 +4,8 @@ JohtoWaterWildMons:
 
 	map_id RUINS_OF_ALPH_OUTSIDE
 	db 2 percent ; encounter rate
-	db 15, WOOPER
-	db 20, QUAGSIRE
+	db 15, OMANYTE
+	db 20, KABUTO
 	db 15, QUAGSIRE
 
 	map_id UNION_CAVE_1F
@@ -166,7 +166,7 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_44
 	db 2 percent ; encounter rate
-	db 25, POLIWAG
+	db 25, REMORAID
 	db 20, POLIWAG
 	db 25, POLIWHIRL
 
