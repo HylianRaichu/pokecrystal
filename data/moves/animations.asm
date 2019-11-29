@@ -252,8 +252,8 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
-	dw BattleAnim_252
-	dw BattleAnim_253
+	dw BattleAnim_FairyWind
+	dw BattleAnim_Moonblast
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
 ; $100
@@ -281,7 +281,6 @@ BattleAnimations::
 	dw BattleAnim_HitConfusion
 
 BattleAnim_0:
-BattleAnim_253:
 BattleAnim_254:
 BattleAnim_MirrorMove:
 	anim_ret
@@ -3767,6 +3766,7 @@ BattleAnim_Charm:
 	anim_ret
 
 BattleAnim_Rollout:
+BattleAnim_Moonblast:
 	anim_1gfx ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_SPARK
 	anim_call BattleAnim_TargetObj_2Row
